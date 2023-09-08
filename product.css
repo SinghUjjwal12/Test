@@ -17,7 +17,12 @@ ul li:hover {
 }
 
 /****************************************/
+.item1 img {
+    width: 698px;
+    height: 509px;
+}
 
+/**************************************/
 #container-2 .det {
     /* border: 2px solid black; */
     height: 40rem;
@@ -236,7 +241,4 @@ img {
     }
 }
 
-.item1 img {
-    width: 698px;
-    height: 509px;
-}
+
