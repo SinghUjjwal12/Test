@@ -269,7 +269,7 @@ a{
 
 .item1 img{
     width: 100%;
-    height: 385px;
+    height: 320px;
   }
 
 
@@ -278,6 +278,20 @@ a{
   @media screen and (min-width: 1380px){
     .item1 img{
         width: 100%;
-        height: 450px;
+        height: 550px;
       }
+  }
+
+  @media screen and (max-width: 780px){
+    .hidden{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 1s;
+    }
+    .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
   }
